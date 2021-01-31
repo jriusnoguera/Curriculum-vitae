@@ -11,5 +11,31 @@
     <p>695561077, Teléfono</p>
     <p>conques@gmail.com</p>
     </div>
+    <div>
+      <h2>Ponte en contacto conmigo</h2>
+      <label for="nameContact"> Nombre</label>
+      <br>
+      <input for="nameContact" type="text" class="contact" size="20" onfocus="cambiaColorFoco()" onblur="cambiaColoronBlur()"/>
+      <br>
+      <label for="apellContact"> Apellidos</label>
+      <br>
+      <input for="apellContact" type="text" class="contact" size="30"/>
+      <br>
+      <label for="telContact"> Teléfono</label>
+      <br>
+      <input for="telContact" type="tel" id="telContact" size="20" oninput="functOnInput()"/>
+      <p id="infotel"></p>
+      <label for="mailContact"> Mail</label>
+      <br>
+      <input for="mailContact" type="email" id="email" size="20" />
+      <br>
+       <label for="mailContact"> comprovar mail</label>
+       <br>
+      <input for="mailContact" type="email" id="email2" size="20" oninput="functemailInput()"/>
+      <p id="infomail"></p>
+
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
